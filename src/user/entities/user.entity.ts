@@ -36,7 +36,7 @@ export class UserEntity {
     type: 'varchar',
     length: 13,
   })
-  phone: number;
+  phone: string;
 
   @Column({
     name: 'qrCode',
